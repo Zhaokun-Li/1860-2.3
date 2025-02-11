@@ -12,5 +12,4 @@ function Main.Xor 0
     pop argument 2
 
     push argument 2
-
     return
