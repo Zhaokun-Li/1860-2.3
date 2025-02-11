@@ -1,12 +1,12 @@
-function Main.Xor 0
-    push argument[0]
-    push argument[1]
+
+    push argument 0
+    push argument 1
     or
-    push argument[0]
-    push argument[1]
+    push argument 0
+    push argument 1
     and
     not
     and
-    pop argument[2]
-    push argument[2]
+    pop argument 2
+    push argument 2
     return

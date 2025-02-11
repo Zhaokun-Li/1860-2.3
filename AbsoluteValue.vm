@@ -1,4 +1,4 @@
-function Main.AbsoluteValue 0
+
     push argument 0
     push constant 0
     lt

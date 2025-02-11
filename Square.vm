@@ -1,3 +1,4 @@
+
 label WHILE_LOOP
     push local 1
     push argument 0
