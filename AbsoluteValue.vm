@@ -1,4 +1,4 @@
-push argument 0
+push constant 0
 pop argument 1
 push constant 0
 pop argument 2
@@ -10,7 +10,7 @@ push constant 1
 add
 neg
 eq
-if-gotO INVALID
+if-goto INVALID
 push argument 0
 push constant 0
 lt
