@@ -23,4 +23,3 @@ push constant 1
 pop argument 2
 push constant 0
 pop argument 3
-return

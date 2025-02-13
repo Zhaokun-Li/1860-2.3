@@ -14,4 +14,4 @@ pop local 1
 goto WHILE_LOOP
 label END_LOOP
 push local 0
-return
+
