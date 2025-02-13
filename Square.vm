@@ -1,3 +1,7 @@
+push constant 0
+pop local 0
+push constant 0
+pop local 1
 label WHILE_LOOP
 push local 1
 push argument 0
