@@ -11,10 +11,8 @@ eq
 if-goto END_LOOP
 push local 2
 push constant 0
-ls
+lt
 if-goto NEG
-
-goto WHILE_LOOP
 
 label WHILE_LOOP
 push local 1
