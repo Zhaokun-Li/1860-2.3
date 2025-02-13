@@ -14,6 +14,8 @@ push constant 0
 ls
 if-goto NEG
 
+goto WHILE_LOOP
+
 label WHILE_LOOP
 push local 1
 push local 2
