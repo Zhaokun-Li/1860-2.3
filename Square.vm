@@ -4,6 +4,7 @@ push constant 1
 pop local 1
 push constant 0
 pop local 2
+
 push argument 0
 push constant 0
 eq
@@ -25,17 +26,21 @@ push constant 1
 add
 pop local 1
 goto WHILE_LOOP
+
 label NEG
 push constant 1
 push local 2
 add
 pop local 2
+goto WHILE_LOOP
+
 label END_LOOP
 push constant 0
 push local 2
 ls
 if-goto NEG_END
 push local 0
+
 label NEG_END
 push local 0
 neg
